@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
-}
+.App{ 
+min-height: 100vh; 
+background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); 
+} 
+.search-form{ 
+min-height: 10vh; 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+} 
+.search-bar{ 
+width: 50%; 
+border:none; 
+padding: 10px; 
+border-radius: 5px; 
+box-shadow: 5px 10px #979b91; 
+} 
+.search-button{ 
+background: #4da1ab; 
+border: 5px solid white; 
+border-radius: 8px; 
+padding: 10px 20px; 
+color: white; 
+font-size: larger; 
+margin: 0 0 0 10px; 
+} 
+.search-button:hover { 
+background-color:#fa709a ; 
+} 
+.recipes{ 
+display: flex; 
+justify-content: space-around; 
+flex-wrap: wrap; 
+} 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* src/App.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .App {
+    text-align: center;
+    padding: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .search-form {
+    margin-bottom: 20px;
   }
-}
+  
+  .search-bar {
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .search-button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .recipe {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    color: #555;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
